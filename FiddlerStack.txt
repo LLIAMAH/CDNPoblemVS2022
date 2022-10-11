@@ -1,0 +1,78 @@
+#	Result	Protocol	Host	URL	Body	Caching	Content-Type	Process	Comments	Custom	
+1	200	HTTP	Tunnel to	api.cdnjs.com:443	0			libman:26868			
+
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.3 (TLS/1.2)
+Random: 57 E4 03 93 61 AA FB ED 50 18 FE C4 14 79 D5 F4 1B 4B 88 0F CD 77 18 46 4A 17 F9 EB E7 F4 93 AB
+"Time": 28.02.2048 14:30:15
+SessionID: empty
+Extensions: 
+	server_name	api.cdnjs.com
+	supported_versions	Tls1.3, Tls1.2, Tls1.1, Tls1.0
+	signature_algs	rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha1, ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_sha1, dsa_sha1, rsa_pkcs1_sha512, ecdsa_secp521r1_sha512
+	supported_groups	x25519 [0x1d], secp256r1 [0x17], secp384r1 [0x18]
+	key_share	00 24 00 1D 00 20 0F D7 91 56 5B 08 6C 41 C9 DE 67 24 65 48 2E AB CF DE F6 52 06 AE A9 23 89 EA 60 9B 27 BE 15 27
+	post_handshake_auth
+	extended_master_secret	empty
+	renegotiation_info	00
+	psk_key_exchange_modes	01 01
+Ciphers: 
+	[1302]	TLS_AES_256_GCM_SHA384
+	[1301]	TLS_AES_128_GCM_SHA256
+	[C02C]	TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+	[C02B]	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+	[C030]	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	[C02F]	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	[009F]	TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+	[009E]	TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+	[C024]	TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+	[C023]	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+	[C028]	TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+	[C027]	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	[C00A]	TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C009]	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C014]	TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[C013]	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[009D]	TLS_RSA_WITH_AES_256_GCM_SHA384
+	[009C]	TLS_RSA_WITH_AES_128_GCM_SHA256
+	[003D]	TLS_RSA_WITH_AES_256_CBC_SHA256
+	[003C]	TLS_RSA_WITH_AES_128_CBC_SHA256
+	[0035]	TLS_RSA_WITH_AES_256_CBC_SHA
+	[002F]	TLS_RSA_WITH_AES_128_CBC_SHA
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes128 128bits
+Hash Algorithm: Sha256 ?bits
+Key Exchange: ECDHE_RSA (0xae06) 255bits
+
+== Server Certificate ==========
+[Subject]
+  CN=sni.cloudflaressl.com, O="Cloudflare, Inc.", L=San Francisco, S=California, C=US
+
+[Issuer]
+  CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+
+[Serial Number]
+  0213C038DE6DB265CA097EBAC28B0508
+
+[Not Before]
+  05.06.2022 3:00:00
+
+[Not After]
+  05.06.2023 2:59:59
+
+[Thumbprint]
+  B932A2379FA6487B74F507DB845C8C94C9F3BB06
+
+[SubjectAltNames]
+cdnjs.com, sni.cloudflaressl.com, *.cdnjs.com
+
+
